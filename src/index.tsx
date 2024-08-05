@@ -1,5 +1,4 @@
-import { useSearchParams } from 'next/navigation';
-import { useRouter } from 'next-nprogress-bar';
+import { useSearchParams, useRouter } from 'next/navigation';
 import type { UseHandleFilterReturnType } from '../types/shared';
 
 const useNextjsSearchParam = (): UseHandleFilterReturnType => {

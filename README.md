@@ -11,7 +11,7 @@ npm install use-nextjs-search-param
 ## Usage
 
 ```typescript
-import { useNextjsSearchParam } from 'use-nextjs-search-param';
+import useNextjsSearchParam  from 'use-nextjs-search-param';
 
 const Component = () => {
   const { onFilter, onReset, onResetAll, page, ...params } = useNextjsSearchParam();
@@ -33,7 +33,7 @@ const Component = () => {
 You can write any name as key and use it from `useNextjsSearchParam`:
 
 ```typescript
-import { useNextjsSearchParam } from 'use-nextjs-search-param';
+import useNextjsSearchParam  from 'use-nextjs-search-param';
 
 const MyComponent = () => {
   const { onFilter, onReset, name, page } = useNextjsSearchParam();
