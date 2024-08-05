@@ -28,11 +28,15 @@
   ],
   "author": "Ahmed Nasser",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AhmedNnasser11/use-nextjs-search-param.git"
+  },
   "dependencies": {
     "next": "^12.0.0",
     "next-nprogress-bar": "^1.0.0"
   },
   "devDependencies": {
-    "typescript": "^4.0.0"
+    "typescript": "^4.9.5"
   }
 }
