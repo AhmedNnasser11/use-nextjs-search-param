@@ -1,0 +1,38 @@
+{
+  "name": "use-nextjs-search-param",
+  "version": "1.0.0",
+  "description": "A custom hook for handling URL search parameters in Next.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nextjs",
+    "next",
+    "search",
+    "param",
+    "url",
+    "query",
+    "filter",
+    "custom",
+    "hook",
+    "use",
+    "use-nextjs-search-param",
+    "use-nextjs-search-param-hook",
+    "use-nextjs-search-param-hook-nextjs",
+    "use-nextjs-search-param-nextjs",
+    "use-nextjs-search-param-nextjs-hook",
+    "use-nextjs-search-param-nextjs-hook-nextjs"
+  ],
+  "author": "Ahmed Nasser",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^12.0.0",
+    "next-nprogress-bar": "^1.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.0.0"
+  }
+}
