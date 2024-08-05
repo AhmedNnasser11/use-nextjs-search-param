@@ -1,6 +1,6 @@
 {
   "name": "use-nextjs-search-param",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A custom hook for handling URL search parameters in Next.js",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
