@@ -1,12 +1,13 @@
 {
   "name": "use-nextjs-search-params",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.0.5",
+  "private": false,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "tsc",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "prepublishOnly": "npm run build"
   },
   "dependencies": {
     "react": "^18",
@@ -20,5 +21,31 @@
     "@types/react-dom": "^18",
     "eslint": "^8",
     "eslint-config-next": "14.2.5"
-  }
+  },
+  "description": "This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AhmedNnasser11/use-nextjs-search-param.git"
+  },
+  "keywords": [
+    "next",
+    "nextjs",
+    "searchparam",
+    "useSearchParamHook",
+    "useSearchParam",
+    "useSearchParamHookNextjs",
+    "useSearchParamNextjs",
+    "useSearchParamNextjsHook",
+    "useSearchParamNextjsHookNextjs",
+    "useSearchParamNextjsNextjs",
+    "useSearchParamNextjsNextjsHook"
+  ],
+  "author": "ahmed nasser",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AhmedNnasser11/use-nextjs-search-param/issues"
+  },
+  "homepage": "https://github.com/AhmedNnasser11/use-nextjs-search-param#readme"
 }
