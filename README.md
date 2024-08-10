@@ -1,18 +1,20 @@
 
 # use-nextjs-search-params
 
-This is a custom hook for handling search parameters in Next.js applications.
+**use-nextjs-search-params** is a custom hook designed to manage and manipulate search parameters in Next.js applications efficiently.
 
 ### Features
 
-- Add any key-value pair in the `onFilter` function and use it as you named.
-- Set arrays or objects without using `JSON.stringify` because the custom hook handles this by default.
+- Easily add any key-value pair in the `onFilter` function and use it as you named.
+- Automatically handles arrays or objects without requiring `JSON.stringify`.
 
 ### Author
 
-- [Ahmed Nasser](https://www.linkedin.com/in/ahmed-nasser-931490212/)
+- Developed by [Ahmed Nasser](https://www.linkedin.com/in/ahmed-nasser-931490212/).
 
 ## Installation
+
+To install this package, run:
 
 ```bash
 npm install use-nextjs-search-params
@@ -72,7 +74,7 @@ const Component = () => {
 
 ## Example
 
-You can write any name as key and use it from `useNextjsSearchParams`:
+You can write any name as key and use it from `use-nextjs-search-params`:
 
 ```typescript
 import useNextjsSearchParams from 'use-nextjs-search-params';
